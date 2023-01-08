@@ -1,0 +1,7 @@
+.menu__item {
+    list-style: none;
+}
+
+.menu__item:last-child .menu-link { /*REMOVENDO MARGIN DO ULTIMO FILHO (COMUNIDADE)*/
+    margin-right: 0;
+}

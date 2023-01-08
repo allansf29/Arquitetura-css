@@ -1,0 +1,25 @@
+.pessoa__imagem {
+    background: red;
+    background-size: cover; /*IMAGEM OCUPAR TODO O ESPAÇO*/
+    background-position: center;
+    background-repeat: no-repeat; /*NÃO DUPLICAR IMAGEM*/
+    border-radius: 100%;
+    height: 300px;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.pessoa__imagem--roberta {
+    background-image: url('../../img/pessoas/roberta.jpg');
+}
+
+.pessoa__imagem--marcela {
+    background-image: url('../../img/pessoas/marcela.jpg');
+}
+
+.pessoa__imagem--andreia {
+    background-image: url('../../img/pessoas/andreia.jpg');
+}
+
+
+/*PARA PESQUISAR ARQUIVOS DE PASTAS ANTERIORES, USAR ../ PARA VOLTAR UMA PASTA PARA VOLTAR DUAS PASTAS ../../*/
